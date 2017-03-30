@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Contact Khalifah Portfolio</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body> 
+  <!-- Header division -->
+<div id="header">
+    <h1>Karen Khalifah <br> </h1>
+<h2>Graphic Designer <img src="images/circle 100px.png" alt="white circle" class="small"/>
+ Developer <img src="images/circle 100px.png" alt="white circle" class="small"/>
+Artist <img src="images/circle 100px.png" alt="white circle" class="small"/>
+</h2>
+   </div><!-- End header -->
+   <!-- Navbar division -->
+<div id="nav">
+<table>
+<tr>
+<td class="table"><a href="index portfolio.html">Home</a></td>
+<td class="table"><a href="about portfolio.html">About</a></td>
+<td class="table"><a href="images portfolio.html">Portfolio</a></td>
+<td class="table"><a href="contact portfolio.html">Contact</a></td>
+  </tr>
+</table>
+   </div><!-- End nav -->
+   <!-- Contact Form -->
+<main id="main4">
+<p id=write>Write me a note.</p>
+<button onclick="myFunction()">click to send message</button>
+<p id="note"></p>
+<script>
+function myFunction() {
+    var message = prompt("What's the good word:", "something fun here");
+    if (message != null) {
+        document.getElementById("note").innerHTML =
+       "Thanks a bunch!";
+    }
+}
+</script>
+<form action="mailto:karen.khalifah@gmail.com" method="post" enctype="text/plain">
+<legend>Your Details:</legend>
+<p><!-- Could eliminate the label line name then break -->
+<label class="title" for="name">Name:</label>
+<input type="text" name="name" id=name size="30" maxlength="100">
+ <br>
+<label class=title for=email>Email:</label>
+<input type="text" name="email" id="email"size="30" maxlength="100">
+</p>
+<p> <label class="title" for="message">
+Send me a message:</label>
+<br>
+<textarea rows="4" cols="40" id="comments"></textarea>
+</p><!-- you could prob write this way as well-Comment:<br>
+<input type="text" name="comment" size="50"> -->
+<div class="submit">
+<input type="submit" value="Send" /></div> 
+
+<p> <a href="mailto:karen.khalifah@gmail.com">Contact Me </p>
+<p><a href="https://www.behance.net/karenkhali07d1" target="_blank">Additional Work</a>
+</p>
+</fieldset>
+ 
+</main>
+   <!-- End Contact Form -->
+</body>
+</html>

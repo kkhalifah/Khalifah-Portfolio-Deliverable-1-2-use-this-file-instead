@@ -1,0 +1,226 @@
+/* stylesheet.css */
+/* Style rule for the body element */
+body{
+width: 900px;
+margin: 0px auto;
+  background-color:white;
+  background-image: url(images/chevron/Chevron-LightBlue-2500x2500.png);
+   background-size: 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+/* Default font styling */
+  font: 10pt Helvetica, Arial, Sans-Serif;
+  color:#5d3f25;
+} 
+/* style for the header div */
+#header { 
+margin: 30px auto;
+text-align: center;
+background-color: darkcyan;
+width: 500px;
+height: 75px;
+padding: 10px 20px 20px 20px;
+border-radius:40px 0px 40px 0px;
+@font-face {
+   font-family: 'flow';
+   src: url('web fonts/flow.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+}
+/* style rule for form */
+fieldset {
+border-radius: 10px;
+ }
+legend {font-weight:bold; 
+}
+.title {
+font-weight: bold; }
+input[text=text] {
+background-color: lightgrey;
+}
+input[type=submit]{
+border: 2px dashed green;
+border-radius: 4px;
+background-color: #99e332;
+padding: 4px;
+}
+input[type=submit]:hover {
+border: 2px dashed red;
+border-radius: 4px;
+background-color: #ff08f7;
+padding: 4px;
+}
+/* style for h1-h3 elements */
+h1 {font-family: flow, helvetica, arial, sans-serfif;
+font-size: 30pt;
+text-align: center;
+margin: 0px;
+color: white;
+}
+h2 {font-family: flow, helvetica, arial, sans-serfif;
+font-size: 20pt;
+text-align: center;
+margin: 5px;
+color: white;
+}
+/* Style rule for the nav div */
+#nav{
+  width:300px;
+  margin:25px auto 25px auto;
+  background-color:white;  
+  border:solid 1px #4c2e16;
+  border-radius:10px;
+  box-shadow: 0px 2px 2px 3px #004d4d;
+  padding:10px;
+text-align: center;
+}
+/* style rule for table text */
+table {
+display: inline;
+text-align: center;
+font: 11pt Helvetica, Arial, Sans-Serif;
+}
+/* style for table padding*/
+td { padding: 0px 14px 0px 0px;
+}
+/* style for the headline 3 */
+h3 {color: darkcyan;
+font-family: Helvetica, arial, verdana;
+font-size: 20px;
+}
+/* style for the images */
+/* style for hover images*/
+.container1 {
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  position: relative;
+  width: 100%;
+}
+.container3 {
+  position: relative;
+  width: 100%;
+}
+.image1 {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+  float: center;
+}
+.image2 {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+  float: center;
+}
+.image3 {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 20px auto;
+  float: center;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+.image1a {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+  float: center;
+}
+.image2a {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+  float: center;
+}
+.image3a {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+  float: center;
+}
+img.meduim {
+border: 5px outset #bdbdbd;
+ box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.3);
+margin: 5px auto;
+}
+img.small {
+width: 10px;
+margin: 2px 2px;
+float: center;
+}
+/* style for main*/
+ #main1 { 
+height:1100px;
+width: 800px;
+background-color: yellow;
+opacity: 0.80;
+}
+ #main2 { 
+height:400px;
+width: 800px;
+background-color: yellow;
+opacity: 1.0;
+}
+ #main3 { 
+height:1300px;
+width: 800px;
+background-color: yellow;
+opacity: 1.0;
+}
+ #main4 { 
+height:400px;
+width: 800px;
+background-color: yellow;
+opacity: 1.0;
+}
+

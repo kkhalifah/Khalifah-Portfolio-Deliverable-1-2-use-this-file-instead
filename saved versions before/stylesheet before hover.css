@@ -1,0 +1,132 @@
+/* stylesheet.css */
+/* Style rule for the body element */
+body{
+width: 900px;
+text-align: center;
+margin: 0px auto;
+  background-color:white;
+  background-image: url(images/chevron/Chevron-LightBlue-2500x2500.png);
+   background-size: 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   
+/* Default font styling */
+  font: 10pt Helvetica, Arial, Sans-Serif;
+  color:#5d3f25;
+} 
+
+/* style for the header div */
+#header { 
+margin: 30px auto;
+text-align: center;
+background-color: darkcyan;
+width: 400px;
+height: 75px;
+padding: 10px 20px 20px 20px;
+border-top-right-radius:0px ;
+border-bottom-right-radius:40px;
+border-bottom-left-radius:0px;
+border-top-left-radius:40px;
+@font-face {
+   font-family: 'flow';
+   src: url('web fonts/flow.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+}
+/* style rule for form */
+fieldset {
+border-radius: 10px;
+ }
+legend {font-weight:bold; 
+}
+.title {
+font-weight: bold; }
+input[text=text] {
+background-color: lightgrey;
+}
+input[type=submit]{
+border: 2px dashed green;
+border-radius: 4px;
+background-color: #99e332;
+padding: 4px;
+}
+input[type=submit]:hover {
+border: 2px dashed red;
+border-radius: 4px;
+background-color: #ff08f7;
+padding: 4px;
+}
+/* style for table padding*/
+td { padding: 0px 10px 0px 0px;
+}
+
+/* style for h1-h3 elements */
+h1 {font-family: flow, helvetica, arial, sans-serfif;
+font-size: 30pt;
+text-align: center;
+margin: 0px;
+color: white;
+}
+
+h2 {font-family: flow, helvetica, arial, sans-serfif;
+font-size: 20pt;
+text-align: center;
+margin: 5px;
+color: white;
+}
+
+/* Style rule for the nav div */
+#nav{
+  width:500px;
+  margin:25px auto 25px auto;
+  background-color:white;  
+  border:solid 1px #4c2e16;
+  border-radius:10px;
+  box-shadow: 8px 8px 8px 4px black
+  padding:40px;
+text-align: center;
+}
+
+/* style rule for table text */
+table {
+display: inline;
+align-center
+margin: 10px 3px 10px 10px;
+}
+/* style for the headline 3 */
+h3 {color: darkcyan;
+font-family: Helvetica, arial, verdana;
+font-size: 20px;
+}
+
+/* style for the images */
+img.large {
+width: 600px;
+opacity: 1.0;
+display: block;
+margin: 20px auto;
+float: center;
+}
+img.meduim {
+border: 5px outset #bdbdbd;
+ box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.3);
+margin: 5px auto;
+}
+
+img.small {
+width: 10px;
+margin: 2px 2px;
+float: center;
+}
+
+/* style for main*/
+ main { 
+height:1300px;
+width: 800px;
+text-align: center;
+background-color: yellow;
+opacity: 0.75;
+text-align: center;
+}
