@@ -1,7 +1,7 @@
 /* stylesheet.css */
 /* Style rule for the body element */
 body{
-width: 900px;
+width: 700px;
 margin: 0px auto;
   background-color:white;
   background-image: url(images/chevron/Chevron-LightBlue-2500x2500.png);
@@ -32,14 +32,31 @@ border-radius:40px 0px 40px 0px;
 /* style rule for form */
 fieldset {
 border-radius: 10px;
+border-color: cyan;
  }
 legend {font-weight:bold; 
 }
-.title {
-font-weight: bold; }
-input[text=text] {
-background-color: lightgrey;
+.title {font-weight: bold;
+ }
+input[type=text] {
+background-color: lightcyan;
 }
+textarea {
+background-color: lightcyan;
+}
+button {
+border: 2px dashed green;
+border-radius: 4px;
+background-color: #99e332;
+padding: 4px;}
+
+button:hover {
+border: 2px dashed red;
+border-radius: 4px;
+background-color: #ff08f7;
+padding: 4px;
+}
+
 input[type=submit]{
 border: 2px dashed green;
 border-radius: 4px;
@@ -74,7 +91,15 @@ color: white;
   border-radius:10px;
   box-shadow: 0px 2px 2px 3px #004d4d;
   padding:10px;
-text-align: center;
+  text-align: center;
+}
+
+/* style rule for ordered list- need to understand how to fix correctly */
+ol.orderedlist {
+height: 75px;
+width: 100px;
+text-align; center;
+padding: 0px 0px 0px 320px;
 }
 /* style rule for table text */
 table {
@@ -90,6 +115,15 @@ h3 {color: darkcyan;
 font-family: Helvetica, arial, verdana;
 font-size: 20px;
 }
+/* style for additional */
+.additional{
+font-family: flow, comic sans ms, monotype corsiva; 
+font-size: 16pt;
+letter-spacing: 0.02em;
+}
+.additional:link {
+color: deeppink;}
+
 /* style for the images */
 /* style for hover images*/
 .container1 {
@@ -190,8 +224,10 @@ font-size: 20px;
 }
 img.meduim {
 border: 5px outset #bdbdbd;
+border-radius: 3px;
  box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.3);
 margin: 5px auto;
+text-align: center;
 }
 img.small {
 width: 10px;
@@ -202,25 +238,33 @@ float: center;
  #main1 { 
 height:1100px;
 width: 800px;
+text-align: center;
+padding-top: 20px;
 background-color: yellow;
-opacity: 0.80;
+opacity: .90;
 }
  #main2 { 
 height:400px;
 width: 800px;
+text-align: center;
+padding-top: 20px;
 background-color: yellow;
-opacity: 1.0;
+opacity: 0.90;
 }
  #main3 { 
 height:1300px;
 width: 800px;
+text-align: center;
+padding-top: 10px;
 background-color: yellow;
-opacity: 1.0;
+opacity: 0.90;
 }
  #main4 { 
-height:400px;
+height:550px;
 width: 800px;
+text-align: center;
+padding-top: 20px;
 background-color: yellow;
-opacity: 1.0;
+opacity: 0.90;
 }
 

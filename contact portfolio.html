@@ -27,20 +27,18 @@ Artist <img src="images/circle 100px.png" alt="white circle" class="small"/>
    </div><!-- End nav -->
    <!-- Contact Form -->
 <main id="main4">
-<p id=write>Write me a note.</p>
-<button onclick="myFunction()">click to send message</button>
+<fieldset>
+<h3 id="headline">Write me a note.</h3>
+<button onclick="myFunction()">Click to send message</button>
 <p id="note"></p>
-<script>
-function myFunction() {
-    var message = prompt("What's the good word:", "something fun here");
-    if (message != null) {
-        document.getElementById("note").innerHTML =
-       "Thanks a bunch!";
-    }
-}
-</script>
+<script src="javaprompt.js"></script>
+<h3>Hey you! Click the prompt box.</h3>
+<button onclick="myFunction()">Click to get message</button>
+<p id="person"></p>
+<script src="javaspromt2.js"></script> <br>
+
 <form action="mailto:karen.khalifah@gmail.com" method="post" enctype="text/plain">
-<legend>Your Details:</legend>
+<legend></legend><strong>Your Details:</strong>
 <p><!-- Could eliminate the label line name then break -->
 <label class="title" for="name">Name:</label>
 <input type="text" name="name" id=name size="30" maxlength="100">
@@ -48,20 +46,20 @@ function myFunction() {
 <label class=title for=email>Email:</label>
 <input type="text" name="email" id="email"size="30" maxlength="100">
 </p>
+
 <p> <label class="title" for="message">
 Send me a message:</label>
 <br>
-<textarea rows="4" cols="40" id="comments"></textarea>
+<div id="textarea">
+<textarea rows="4" cols="40" id="comments"></textarea></div>
 </p><!-- you could prob write this way as well-Comment:<br>
 <input type="text" name="comment" size="50"> -->
 <div class="submit">
 <input type="submit" value="Send" /></div> 
-
-<p> <a href="mailto:karen.khalifah@gmail.com">Contact Me </p>
-<p><a href="https://www.behance.net/karenkhali07d1" target="_blank">Additional Work</a>
-</p>
 </fieldset>
- 
+<p class="additional"> <a href="mailto:karen.khalifah@gmail.com">Contact Me </p>
+<p class="additional"> <a href="https://www.behance.net/karenkhali07d1" target="_blank">Additional Work</a>
+</p>
 </main>
    <!-- End Contact Form -->
 </body>
