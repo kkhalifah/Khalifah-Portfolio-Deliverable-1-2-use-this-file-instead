@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 <title>Contact Khalifah Portfolio</title>
@@ -29,33 +28,31 @@ Artist <img src="images/circle 100px.png" alt="white circle" class="small"/>
 <main id="main4">
 <fieldset>
 <h3 id="headline">Write me a note.</h3>
-<button onclick="myFunction()">Click to send message</button>
-<p id="note"></p>
 <script src="javaprompt.js"></script>
+<button onclick="myFunctionmessage()">Click to send message</button>
+<h4 id="message"></h4>
 <h3>Hey you! Click the prompt box.</h3>
 <button onclick="myFunction()">Click to get message</button>
-<p id="person"></p>
+<h4 id="person"></h4>
 <script src="javaspromt2.js"></script> <br>
-
 <form action="mailto:karen.khalifah@gmail.com" method="post" enctype="text/plain">
-<legend></legend><strong>Your Details:</strong>
-<p><!-- Could eliminate the label line name then break -->
+<p class="three"><strong>Your Details:</strong></p>
+<p class="three"><!-- Could eliminate the label line name then break -->
 <label class="title" for="name">Name:</label>
 <input type="text" name="name" id=name size="30" maxlength="100">
  <br>
 <label class=title for=email>Email:</label>
 <input type="text" name="email" id="email"size="30" maxlength="100">
 </p>
-
-<p> <label class="title" for="message">
+<p class="three"> <label class="title" for="message">
 Send me a message:</label>
 <br>
-<div id="textarea">
-<textarea rows="4" cols="40" id="comments"></textarea></div>
+<p class="three">
+<textarea rows="4" cols="40" id="comments"></textarea></p>
 </p><!-- you could prob write this way as well-Comment:<br>
 <input type="text" name="comment" size="50"> -->
-<div class="submit">
-<input type="submit" value="Send" /></div> 
+<input type="submit" value="Send" /><br>
+<br>
 </fieldset>
 <p class="additional"> <a href="mailto:karen.khalifah@gmail.com">Contact Me </p>
 <p class="additional"> <a href="https://www.behance.net/karenkhali07d1" target="_blank">Additional Work</a>
